@@ -16,17 +16,16 @@ function faqExpand(){
 
 function menuBtn(){
     var menuBtn = document.getElementById("menu-btn");
-    var menuList = document.getElementById("navigation-list-items-sm");
+    var menu = document.getElementById("navigation-list-items-sm");
 
-    menuBtn.addEventListener("click",function(){
-        if(menuList.style.display == "none"){
-            menuList.style.display= "flex";
+    menuBtn.onclick = function(){
+        if(menu.style.display=="none"){
+            menu.style.display = "flex";
         }
         else{
-            menuList.style.display= "none";
+            menu.style.display = "none";
         }
-    });
-
+    }
 }
 
 
