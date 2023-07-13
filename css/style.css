@@ -1,0 +1,274 @@
+* { 
+  font-family: Poppins, sans-serif;
+  padding: 0px; 
+  margin: 0px; 
+  text-decoration: none; 
+  list-style: none; 
+}
+a{
+  text-decoration:none;
+}
+@media (min-width: 1400px) {
+  .container {
+      max-width: 1140px;
+  }
+}
+
+
+.book-menu-btn{
+  background-color:#1F489C;
+  border-radius:unset;
+}
+.navigation-list-items { column-gap: 20px; }
+.navigation-parent { background: #0B1437; }
+.navigation-child { height: 100px; }
+.navigation-list-items li a { font-size: 10pt; font-weight: 700; }
+@media screen and (max-width: 768px) {
+  .navigation-list-items {
+    display: none; 
+    background-color: black; 
+    border-top: 1px solid white; 
+    position: absolute; 
+    left: 0px; 
+    right: 0px; 
+    top: 100px; 
+    height: 400px; 
+    row-gap: 20px; 
+  }
+}
+
+.hero-section-heading { 
+  font-size: 22pt; 
+  line-height: 120.5%; 
+  font-weight: 900 !important;
+  text-transform: capitalize !important;
+  color: black !important;
+}
+.hero-section-description{
+  font-size:11pt;
+  line-height:14pt;
+  font-weight:480;
+}
+.book-btn { 
+  background-color: #0B1437 ; 
+  border-radius: unset; 
+  font-weight:800;
+}
+.watch-btn { 
+  border: 2px solid #0B1437; 
+  border-radius: unset;
+  font-weight:800;
+}
+@media screen and (max-width: 768px) {
+  .hero-section-heading{
+    font-size:18pt !important ;
+  }
+  .hero-section-description{
+    font-size:9pt;
+    line-height:12pt;
+  }
+  .hero-section-row .col-12 { text-align: center; }
+  .hero-section-row { row-gap: 20px; }
+  .logo { height: 50px; }
+}
+@media screen and (max-width: 670px) {
+  .hero-section-heading { font-size: 26pt; }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .hero-section-heading { 
+    font-size: 15pt; 
+  }
+  .hero-section-description{
+    font-size:7pt;
+    line-height:10pt;
+    font-weight:580;
+  }
+  .book-btn,.watch-btn{
+    font-size:8pt;
+  }
+}
+@media screen and (max-width:379px){
+  .hero-section-heading{
+    font-size:15pt;
+  }
+  .get-intouch-btn{
+    display:none;
+  }
+}
+
+@media screen and (max-width:330px){
+  .book-btn,.watch-btn{
+    font-size:8pt;
+  }
+}
+
+
+.about-section-parent { 
+  background-color: #0B1437; 
+}
+.about-heading { 
+  font-size: 20pt; 
+  line-height: 120.5%; 
+  font-weight: 900 !important; 
+  text-transform: capitalize !important; 
+}
+.about-description-heading { 
+  font-size: 10pt;
+}
+.learn-btn { 
+  border: 2px solid white; 
+  border-radius: unset;
+  font-weight:600;
+  color:white;
+  font-size:9pt;
+}
+@media screen and (max-width: 768px) {
+  .about-section-row .col-12 { text-align: center; }
+  .about-section-row { 
+    row-gap: 20px; 
+  }
+  .about-section-row{
+    flex-direction:column-reverse !important;
+    row-gap:30pt;
+  }
+  .about-heading{
+    font-size:16pt !important;
+  }
+}
+@media screen and (max-width: 670px) {
+  .about-heading { font-size: 18pt; }
+  .about-description-heading{
+    font-size:8pt !important;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .about-heading { font-size: 13pt; }
+  .about-description-heading{
+    font-size:7pt;
+    margin-top:4px !important;
+  }
+  .learn-btn{
+    font-size:6pt;
+  }
+}
+
+
+/*functionalities coding start here*/
+.functionalities-heading{
+  font-size:20pt;
+  font-weight:1000;
+  color:#1F489C;
+}
+.functionalities-card-title{
+  font-size:12pt;
+  font-weight:800;
+}
+.functionalities-card-description{
+  font-size:10pt;
+  font-weight:500;
+}
+@media screen and (max-width:767px){
+  .functionalities-heading{
+    font-size:16pt;
+    text-align:center;
+  }
+}
+/*functionalities coding ended here*/
+
+.faq-section-sub-heading { 
+  font-size: 12pt;
+  font-weight: 670; 
+  color: #1F489C !important; 
+}
+.faq-section-heading { 
+  font-size: 20pt; 
+  line-height: 120.5%; 
+  font-weight: 1000 !important; 
+  text-transform: capitalize !important; 
+  color: #1F489C !important; 
+}
+.faq-card-title{
+  font-weight:700;
+}
+.faq-icon{
+  height:40px;
+}
+.faq-card{
+  border:none;
+  background: rgb(255, 255, 255); 
+  box-shadow: rgba(0, 0, 0, 0.11) 2px 8px 28px 0px; 
+}
+.faq-expand{
+    cursor:pointer;
+}
+.get-intouch-btn { border: 2px solid rgb(41, 143, 217); color: rgb(41, 143, 217); border-radius: unset; }
+.built-btn { background-color: rgb(41, 143, 217); border-radius: unset; }
+@media screen and (max-width: 768px) {
+  .faq-section-row .col-12 { text-align: center; }
+  .faq-section-row { row-gap: 20px; }
+  .logo { height: 50px; }
+  .faq-section-heading{
+    font-size:16pt !important;
+    text-align:center;
+  }
+  .faq-section-sub-heading{
+    text-align:center
+  }
+}
+@media screen and (max-width: 670px) {
+  .faq-section-sub-heading{
+    font-size:10pt;
+  }
+  .faq-section-heading { font-size: 19pt !important; }
+  .faq-card-title{
+    font-size:10pt;
+  }
+  .faq-icon{height:30px;}
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .faq-section-sub-heading{font-size:10pt}
+  .get-intouch-btn,.built-btn{
+    font-size:9pt;
+  }
+}
+@media screen and (max-width:379px){
+  .faq-section-heading{
+    font-size:16pt !important;
+  }
+  .get-intouch-btn{
+    display:none;
+  }
+}
+
+
+.footer-parent{
+  background-color:#171731;
+}
+.footer-description{
+  font-size:10pt;
+}
+.submit-btn{
+  background-color:#298FD9;
+}
+
+@media screen and (max-width:769px){
+  .footer-services-column{
+    margin-top:30px;
+  }
+  .quick-links-footer-column{
+    margin-top:10px;
+  }
+  .logo-footer-column{
+    text-align:center;
+  }
+  .faq-description p{
+    font-size:10pt;
+    font-weight:500;
+  }
+  .quick-links-footer-column{
+    text-align:center;
+  }
+  .footer-item{
+    font-size:10pt;
+  }
+}
