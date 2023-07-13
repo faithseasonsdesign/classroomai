@@ -1,6 +1,6 @@
 function faqExpand(){
-    let faqBtn = document.getElementsByClassName("faq-expand");
-    let faqDescription = document.getElementsByClassName("faq-description");
+    var faqBtn = document.getElementsByClassName("faq-expand");
+    var faqDescription = document.getElementsByClassName("faq-description");
 
     for(var a = 0 ; a < faqBtn.length; a++){
         faqBtn[a].addEventListener("click",function(e){
