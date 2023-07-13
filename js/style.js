@@ -14,6 +14,14 @@ function faqExpand(){
     }
 }
 
+function faq(){
+    $(".faq-expand").click(function(event){
+        id = "."+event.target.id;
+        $(id).toggle();
+        //$().toggle();
+    });
+}
+
 function menuBtn(){
     var menuBtn = document.getElementById("menu-btn");
     var menu = document.getElementById("navigation-list-items-sm");
@@ -33,3 +41,4 @@ function menuBtn(){
 
 faqExpand();
 menuBtn();
+faq();
