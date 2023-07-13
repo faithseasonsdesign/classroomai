@@ -240,6 +240,75 @@ a{
   }
 }
 
+/*newsletter section start here*/
+.subscribe-section-parent{
+  background-color:#171731;
+}
+.subscribe-heading{
+  font-size:13pt;
+}
+.subcribe-btn{
+  background-color:#1F489C;
+  border:solid 2px #1F489C;
+  color:white;
+  font-size:12pt;
+  font-weight:600;
+}
+.subscribe-input{
+  font-size:12pt;
+  font-weight:500;
+}
+@media screen and (max-width:767px){
+  .subscribe-heading{
+    font-size:10pt;
+    text-align:center;
+  }
+  .subscribe-input,.subcribe-btn{
+    font-size:8pt !important;
+    font-weight:700;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    .subscribe-heading{
+      font-size:8pt;
+    }
+}
+/*newsletter section ended here*/
+
+
+
+.in-touch-heading{
+  font-weight:1000;
+  font-size:18pt;
+  color:#1F489C
+}
+.contact-input{
+  background-color:#D9D9D9;
+  border:solid 1px #D9D9D9;
+}
+.contact-submit-btn{
+  background-color:#171731;
+  border:solid 2px #171731;
+  color:white;
+  font-weight:600;
+  font-size:10pt;
+}
+.form-caption{
+  font-size:11pt;
+  font-weight:600;
+}
+@media screen and (max-width:769px){
+  .in-touch-heading{
+    font-size:15pt;
+    text-align:center;
+  }
+  .form-caption{
+    font-size:10pt;
+    text-align:center;
+    font-weight:700;
+  }
+}
+
 
 .footer-parent{
   background-color:#171731;
